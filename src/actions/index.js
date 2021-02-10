@@ -19,7 +19,7 @@ const loadingError = () => {
 
 const chooseItem = (id) => {
     return {
-        type: 'CHOOSE_ITEMS',
+        type: 'CHOOSE_ITEM',
         payload: id
     }
 }
