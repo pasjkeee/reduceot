@@ -8,7 +8,7 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     console.log(state, action);
     switch (action.type) {
-        case 'CHOOSE_ITEMS':
+        case 'CHOOSE_ITEM':
             console.log('Reduced');
             return { 
                 menu: state.menu, //оставляем как было
